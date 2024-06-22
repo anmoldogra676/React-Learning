@@ -1,0 +1,54 @@
+function k naam k saath export --> then destructure is required
+baad m export default  --> jo naam hai wohi
+
+React flow -->
+React ---> web app --> react dom
+      ---> mobile app --> react native 
+
+npm --> node pacakage manager --> 
+npx --> not install just execute 
+
+npx create-react-app --> make the basic project of react ( famous utility)
+
+pacakage.json--> name, version, dependency
+script--> run the code --> start (dev env run the code ) , build ( run the code in production)
+
+vite --> bundler ->
+------------------------------------------------------------------------------------------------------------------------------------
+spa--> single page application --> only file index.html  
+
+react and react dom --> index.js file k andr
+react create dom --> virtual dom and only check changes that has been made to it and do the changes 
+that's why its popular and fast 
+react main script aa jaati hain files se 
+js k saath html use kr skte hain --> jsx 
+jsx --> function hai jo html return krta hai --> function call ki tarah bhi maan skte hain usko
+
+--> Component (uppercase ) 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+React --> 
+component --> function App(){}
+Hooks --> 
+variables and all we give does not updates on UI.click on the button all things will do but does not update on UI
+HOOKS --> usestate, useeffect all things which start from use are Hooks
+each hook is defined for some particular state 
+ui updatation from react 
+State --> 
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+React --> fiber algo. 
+ek dum se jyada updates aa gye kaise handle krne hai 
+multiple frames m divide
+different priority to update, 
+pause , abort , new update
+RECONSILLATION --> diff between old and new tree alog
+DIFF OF LIST --> KEY INTRODUYCE
+
+---------------------------------------------------------------------------------------------------------------
+props -->
+ek component bna lia toh ab reuse kr skte ho 
+ek basic structure bna lia and now if I want to update the structure with the different
+data --> toh we can use props <Card name="affaf" />
